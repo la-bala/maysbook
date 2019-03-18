@@ -1,0 +1,119 @@
+@media screen and (min-width: 0px){
+  html{
+    background: linear-gradient(45deg,white,80%,#ff9999);
+    background-attachment: fixed;
+    width:1280px;
+    height:678px;
+    min-width:1280px;
+    min-height:678px;
+  }
+}@media screen and (min-width: 1800px){
+  html{
+    background: linear-gradient(45deg,white,80%,#ff9999);
+    background-attachment: fixed;
+    width:1600px;
+  }
+}#homePage{
+  margin:5px;
+}#landingPage{
+  background-image: url('https://media.giphy.com/media/EjblavlsCWBeU/giphy.gif');
+  background-size: cover;
+}#landingLogo{
+  width:30%;float:left;
+}#worldMap{
+  width:65%;clear:left;float:left;margin-left:-2%; margin-right: 3.5%;
+}#landingCard{
+  float:left;
+  width:30%; height:40%;
+  background-color:white;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 2.5em;
+  opacity:.95;
+}#buttonPanel{
+  width:100%; height:18%;
+  margin-top: .5em;
+}.logInRegisterButtons{
+  border-radius: 6em;
+  height:100%;width:50%;
+  float:left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}.logInRegisterCard{
+  height:80%;
+  text-align: center;
+}#registerCard{
+  display:none;
+}#slogan{
+  float:left;
+  font-family: 'Open Sans', sans-serif;
+  margin-top:3%; margin-left:3%;
+}.landingForm{
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: .5em;
+  width:90%;
+  height:17%;
+}#logInButton{
+  background-color: #afceff;
+}#registerButton{
+  background-color: #cee3ff;
+}#landingError{
+  background-color:red;
+  color:white;
+  border-radius:.8em;
+  font-size:.8em;
+  margin-top: 10%;
+  opacity:.9;
+  padding:1%;
+}.logOutButton{
+  color:white;
+  text-align:center;
+  background-color:#c82333;
+  border:1px solid transparent;
+  width: 100%; height: 100%;
+  font-size: auto;
+  border-radius:.25rem;
+  transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.logOutButton:hover{
+  color:#fff;background-color:#ff0000;border-color:#bd2130
+}nav{
+  background-color: white;
+  box-shadow: 0px 5px 5px -5px grey;
+  width:100%;
+  height:50px;
+}.sidebar{
+  float:left;
+  background-color:#f2f2f2;
+  height:92.5%;
+  width:20%;
+  border:1px solid lightgray;
+  box-shadow: 5px 0px 5px -5px grey;
+}.thoughtDeck{
+  float:left;
+  width:79%;
+  height:92.5%;
+}.thoughtPostInput{
+  width:80%;
+  height:100%;
+  border-radius: 2em;
+  float:left;
+  opacity:.85;
+}.thoughtPostForm{
+  width:40%;
+  height:5%;
+  padding:1%;
+  float:left;
+}.thoughtPostSubmit{
+  float:left;
+  width:20%;
+  height:100%;
+  border-radius:2em;
+  font-size:1rem;
+  background-color:#17a2b8;
+  border-color:#17a2b8;
+  color:#fff;
+}.thoughtPostSubmit:hover{
+  color:#fff;
+  background-color:#138496;
+  border-color:#117a8b;
+}.thoughtPostSubmit:focus{box-shadow:0 0 0 .2rem rgba(58,176,195,.5)}
